@@ -204,3 +204,24 @@ header .container {
     border-bottom: 2px solid #000000;
 
 }
+
+@media (max-width: 650px) {
+
+        .home_destaque {
+            background-image: url(../img/3637_mobile.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: auto;
+            padding-bottom: 30px;
+            clip-path: polygon(
+                0% 0%,
+                100% 0%,
+                100% calc(100% - 30px),
+                0% 100%
+            );
+            border-bottom: 2px solid #000000;
+        
+        }
+    }
+        
