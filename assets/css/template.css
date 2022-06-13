@@ -205,6 +205,81 @@ header .container {
 
 }
 
+.dados_title img {
+    width: 120px;
+    height: auto;
+}
+
+#home_dados {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.home_dados_container {
+    text-align: center;
+    
+}
+
+.home_dados_title h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+article {
+    display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+article h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+article p {
+    margin-top: 10px;
+}
+
+#departments {
+    background-image: url(../img/mesh.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    clip-path: polygon(
+        0% 10%,
+        100% 0%,
+        100% calc(100% - 30px),
+        0% 100%
+    );
+}
+
+.departments_container h1 {
+    max-width: 1000px;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+   
+}
+
+#faq {
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+  
+  
+
 @media (max-width: 650px) {
 
         .home_destaque {
