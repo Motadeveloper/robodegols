@@ -184,6 +184,7 @@ header .container {
     margin: auto 20px;
     flex:1;
     font-size: 14px;
+    color: #00FFCB;
     
    
 }
@@ -483,3 +484,5 @@ article p {
     display: flex;
     text-align: center;
   }
+
+  
