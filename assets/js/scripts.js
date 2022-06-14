@@ -28,3 +28,7 @@ window.onload = function() {
 
     startTimer(duration, display); // inicia a função
 }
+
+window.sr = ScrollReveal({ reset: true});
+
+sr.reveal('.scroll_1', {duration: 1000});
