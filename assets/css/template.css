@@ -314,8 +314,9 @@ article p {
 }
 
 .accordion-link {
-    font-size: 1.6rem;
-    color: rgba(255, 255, 255, .8)  ;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.678)  ;
     text-decoration: none;
     background-image: url(../img/mesh.png);
     width: 100%;
@@ -326,7 +327,7 @@ article p {
 }
 
 .accordion-link i {
-    color: #e7d5ff;
+    color: #0e0f02;
     padding: .5rem;
 
 }
